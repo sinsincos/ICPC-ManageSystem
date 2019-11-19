@@ -1,1 +1,1 @@
-# ICPC-ManageSystem
+# ACM实验室训练管理系统技术文档
