@@ -1,2 +1,2 @@
 
-$("#content").load("./html/my.html");
+$("#content").load("./html/login.html");
