@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-scroller">
+  <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+    <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+      <a class="navbar-brand brand-logo" href="my.html"><img src="img/sdu-logo.png" alt="logo"/></a>
+      <a class="navbar-brand brand-logo-mini" href="my.html"><img src="img/logo.png" alt="logo"/></a>
+    </div>
+    <div class="navbar-menu-wrapper d-flex align-items-stretch">
+
+      <ul class="navbar-nav navbar-nav-left">
+        <li class="nav-item">
+          <h2 class="page-title">SDU(QD)ACM实验室</h2>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar-nav-right">
+        <li class="nav-item nav-profile dropdown">
+          <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+            <div class="nav-profile-img">
+              <img src="images/faces/face1.jpg" alt="image" id="face_img">
+            </div>
+            <div class="nav-profile-text"><p class="mb-1 text-black" id="user_name">尹浩飞</p></div>
+          </a>
+          <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+            <a class="dropdown-item" href="#"><i class="mdi mdi-cached mr-2 text-success"></i>修改头像</a>
+            <a class="dropdown-item" href="#"><i class="mdi mdi-logout mr-2 text-primary"></i>退出登录</a>
+          </div>
+        </li>
+        <li class="nav-item d-none d-lg-block full-screen-link">
+          <a class="nav-link"><i class="mdi mdi-fullscreen" id="fullscreen-button"></i></a>
+        </li>
+      <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+        <span class="mdi mdi-menu"></span>
+      </button>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid page-body-wrapper" >
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="my.html">
+            <span class="menu-title">我的信息</span>
+            <i class="mdi mdi-home menu-icon"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/icons/mdi.html">
+            <span class="menu-title">活动</span>
+            <i class="mdi mdi-contacts menu-icon"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/icons/mdi.html">
+            <span class="menu-title">课程</span>
+            <i class="mdi mdi-contacts menu-icon"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/icons/mdi.html">
+            <span class="menu-title">比赛</span>
+            <i class="mdi mdi-contacts menu-icon"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#training-basic" aria-expanded="false" aria-controls="training-basic">
+            <span class="menu-title">训练</span>
+            <i class="menu-arrow"></i>
+            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+          </a>
+          <div class="collapse" id="training-basic">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="">题目训练</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">专题训练</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#resources-basic" aria-expanded="false" aria-controls="resources-basic">
+            <span class="menu-title">资源</span>
+            <i class="menu-arrow"></i>
+            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+          </a>
+          <div class="collapse" id="resources-basic">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="">共享资源</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">我的云盘</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#finance-basic" aria-expanded="false" aria-controls="finance-basic">
+            <span class="menu-title">财务</span>
+            <i class="menu-arrow"></i>
+            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+          </a>
+          <div class="collapse" id="finance-basic">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="">预算申报</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">报销申报</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">费用明细</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#time-basic" aria-expanded="false" aria-controls="time-basic">
+            <span class="menu-title">考勤</span>
+            <i class="menu-arrow"></i>
+            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+          </a>
+          <div class="collapse" id="time-basic">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="">值日安排</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">课程安排</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">比赛安排</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#apply-basic" aria-expanded="false" aria-controls="apply-basic">
+            <span class="menu-title">申请</span>
+            <i class="menu-arrow"></i>
+            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+          </a>
+          <div class="collapse" id="apply-basic">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="">门禁申请</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">机位申请</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">设备登记</a></li>
+              <li class="nav-item"> <a class="nav-link" href="">志愿填报</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/tables/basic-table.html">
+            <span class="menu-title">队伍</span>
+            <i class="mdi mdi-table-large menu-icon"></i>
+          </a>
+        </li>
+        <li class="nav-item sidebar-actions">
+            <span class="nav-link">
+              <div class="mt-4">
+                <div class="border-bottom"><p class="text-secondary">技术支持</p></div>
+                <ul class="gradient-bullet-list mt-4"><li>QQ: 735961159</li></ul>
+              </div>
+            </span>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-panel">
+      <div id="my_content"></div>
+      <footer class="footer">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+          <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2019 <a href="http://www.sdu.edu.cn" target="_blank">山东大学</a>. All rights reserved. </span>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+<script src="js/my.js"></script>
+<script src="vendors/js/vendor.bundle.base.js"></script>
+<script src="vendors/js/vendor.bundle.addons.js"></script>
+<script src="js/off-canvas.js"></script>
+<script src="js/misc.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+
+</html>
